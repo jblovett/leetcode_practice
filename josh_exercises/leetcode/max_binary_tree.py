@@ -2,7 +2,7 @@
 """Problem 104: https://leetcode.com/problems/maximum-depth-of-binary-tree/.
 Binary search trees, heaps, and depth first search perhaps?"""
 
- class TreeNode:
+class TreeNode:
      val: int
      left: TreeNode
      right: TreeNode
@@ -17,20 +17,8 @@ class Solution:
         # base case: found the deepest leaf
         # self.left = null
         depth: int
-        if root.left = None and root.right = None:
+        if root.left == None and root.right == None:
             depth += 1
             return depth
-        else if root.left = None:
+        elif root.left == None:
             
-
-            
-
-
-
-
-
-
-
-def main():
-
-    print(Solution.maxDepth())
